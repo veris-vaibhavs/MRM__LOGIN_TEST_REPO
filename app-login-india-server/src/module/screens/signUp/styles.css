@@ -1,0 +1,82 @@
+.signup-signin-switch {
+    z-index: 5 !important;
+    width: 100% !important;
+    text-align: right !important;
+    cursor: pointer !important;
+    position: absolute !important;
+    right: 0 !important;
+    color: #6e7380 !important;
+    font-size: 14px !important;
+    margin: 0 0 12px 0 !important;
+}
+
+.signup-mobile-input {
+    position: absolute !important;
+    z-index: 1 !important;
+    margin-left: -1px !important;
+    margin-top: -3px !important;
+    border: 1px solid rgb(217, 217, 217) !important;
+    height: 36px !important;
+    border-radius: 9px !important;
+    position: absolute !important;
+    top: 3px !important;
+    padding: 0 1px 0 3px !important;
+    width: 32% !important;
+}
+
+.signup-otp-btn {
+    border-top-right-radius: 9px !important;
+    height: 36px !important;
+    border-bottom-right-radius: 9px !important;
+}
+
+.signup-email-phone-input {
+    width: 100% !important;
+    border-radius: 9px !important;
+    height: 36px !important;
+    position: relative !important;
+    left: 0 !important;
+}
+
+.signup-button-design {
+    width: 100% !important;
+    border-radius: 6px !important;
+    height: 36px !important;
+}
+
+#signup-via-otp-design {
+    position: absolute !important;
+    top: 0px !important;
+    right: 0px !important;
+}
+
+.signup-main-screen-ForgotPasswordLink {
+    font-size: 14px !important;
+    line-height: 0px !important;
+    color: #fbaf3f !important;
+    text-align: right !important;
+    margin-bottom: 28px !important;
+    cursor: pointer !important;
+    position: relative !important;
+    bottom: 5px !important;
+}
+
+.signup-main-screen-ForgotPasswordLink:hover {
+    color: #242934 !important;
+}
+
+.signup-first-screen .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: none !important;
+}
+
+.signup-spinner {
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    translate: (-50%, -50%);
+}
+
+.signup-mobile-email-switch {
+    left: 35% !important;
+    width: 65% !important;
+}

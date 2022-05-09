@@ -1,0 +1,9 @@
+.react-tel-input .form-control.invalid-number {
+    border: 1px solid #CACACA !important;
+    width: 100%;
+    background-color: #fff !important;
+}
+
+.react-tel-input .flag-dropdown.invalid-number {
+    border-color: #CACACA !important;
+}

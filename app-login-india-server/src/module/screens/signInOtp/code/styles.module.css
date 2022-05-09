@@ -1,0 +1,43 @@
+.LabelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.PasswordLink {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6e7380;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.PasswordLink:hover {
+    color: #242934;
+}
+
+.Resend {
+    font-size: 14px;
+    line-height: 20px;
+    color: #fbaf3f;
+    text-align: right;
+    margin-top: 9px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.Resend:hover {
+    color: #242934;
+}
+
+.ResendTimer {
+    font-size: 14px;
+    line-height: 20px;
+    color: #242934;
+    text-align: right;
+    margin-top: 9px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}

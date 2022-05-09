@@ -1,0 +1,31 @@
+.SingleActivity .rdtDay, .SingleActivity .dow, .SingleActivity .rdtNext {
+    position: relative !important;
+    right: 0px !important;
+    border-left: 0px !important;
+    width: 40px !important;
+    padding: 6px 0px !important;
+}
+
+.SingleActivity {
+    min-height: 360px !important;
+}
+
+.rdtTime td:last-of-type {
+    position: inherit !important;
+}
+
+.vrs-btn-secondary.vrs-btn-light {
+    color: #018ccf;
+    border: 1px solid #018ccf;
+    margin-right: 15px;
+}
+
+.vrs-btn-secondary.vrs-btn-light:hover {
+    background-color: #f2f6fa;
+}
+
+.vrs-label.vrs-btn-secondary.vrs-btn-light {
+    color: #018ccf;
+    border: none;
+    margin-right: 0px;
+}

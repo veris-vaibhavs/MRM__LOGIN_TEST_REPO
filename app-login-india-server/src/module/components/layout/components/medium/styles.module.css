@@ -1,0 +1,84 @@
+.Container {
+    position: relative;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px;
+    z-index: 98;
+}
+
+.MenuIcon {
+    height: 24px;
+    fill: #6e7380;
+}
+
+.FireList {
+    margin-left: 12px;
+}
+
+.Backdrop {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.DropDown {
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    width: 90%;
+    z-index: 99;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px 0px #CBCED4;
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 2.5%;
+}
+
+.DropDownPointer {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    transform: rotate(45deg) translateY(-10px);
+    position: absolute;
+    top: 0px;
+    left: 32px;
+    box-shadow: 0px 0px 4px 0px #CBCED4;
+}
+
+.DropDown ul {
+    position: relative;
+    list-style: none;
+    background-color: white;
+    z-index: 2;
+    border-radius: 9px;
+}
+
+.DropDown ul li {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343E4F;
+    cursor: pointer;
+    border-bottom: 1px solid #EBEDF2;
+}
+
+.DropDown ul li:hover {
+    background-color: rgba(248, 248, 248, 0.4);
+}
+
+.Link a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+    color: #6e7380;
+    padding: 16px 22px;
+}

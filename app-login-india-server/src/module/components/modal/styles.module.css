@@ -1,0 +1,43 @@
+.Container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.Modal {
+    background-color: white;
+    border-radius: 12px;
+    width: 585px;
+    max-height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Modal.Modal {
+    width: 85%;
+}
+
+@media only screen and (max-width: 992px) {
+    .Modal {
+        width: 95%;
+        max-height: 85vh;;
+        margin: auto;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+    .Modal {
+        width: 85%;
+        max-height: 85vh;
+        margin: auto;
+    }
+
+}

@@ -1,0 +1,70 @@
+.login-signin-switch {
+    z-index: 5;
+    width: 100%;
+    text-align: right;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    color: #6e7380;
+    font-size: 14px;
+    margin: 0 0 12px 0;
+}
+
+.login-mobile-input {
+    position: absolute;
+    z-index: 1;
+    margin-left: -1px;
+    margin-top: -3px;
+    border: 1px solid rgb(217, 217, 217);
+    height: 36px;
+    border-radius: 9px;
+    position: absolute;
+    top: 3px;
+    padding: 0 1px 0 3px;
+    width: 32%;
+}
+
+.login-otp-btn {
+    border-top-right-radius: 9px;
+    height: 36px;
+    border-bottom-right-radius: 9px;
+}
+
+.login-email-phone-input {
+    width: 100%;
+    border-radius: 9px;
+    height: 36px;
+    position: relative;
+    left: 0;
+}
+
+.login-button-design {
+    width: 100%;
+    border-radius: 6px;
+    height: 36px;
+}
+
+#login-via-otp-design {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.login-main-screen-ForgotPasswordLink {
+    font-size: 14px;
+    line-height: 0px;
+    color: #fbaf3f;
+    text-align: right;
+    margin-bottom: 28px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+
+.login-main-screen-ForgotPasswordLink:hover {
+    color: #242934;
+}
+
+.login-first-screen .ant-form-item-label>label.ant-form-item-required:not(.ant-form-item-required-mark-optional)::before {
+    content: none;
+}

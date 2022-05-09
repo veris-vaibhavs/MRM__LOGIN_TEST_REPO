@@ -1,0 +1,79 @@
+
+.Label {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #242934
+}
+
+.InputContainer {
+    margin-bottom: 16px;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.Input {
+    border: 1px solid #c2c5cc;
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+    height: 36px;
+    padding: 10px 12px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    text-align: right;
+}
+
+.Input::placeholder {
+    color: #959b9e
+}
+
+.Suffix {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #ebeff2;
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+    height: 36px;
+    box-sizing: border-box;
+    font-size: 14px;
+    line-height: 14px;
+    border: 1px solid #c2c5cc;
+    border-left: none;
+    color: #6e7380
+}
+
+.Button {
+    background-color: #018ccf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    border-radius: 6px;
+}
+
+.ButtonLabel {
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.LinkContainer {
+    margin-top: 8px;
+    text-align: right;
+}
+
+.Link {
+    color: #018ccf;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.Link:active {
+    color: #018ccf;
+}

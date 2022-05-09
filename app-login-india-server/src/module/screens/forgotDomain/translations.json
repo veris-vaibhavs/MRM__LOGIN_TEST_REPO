@@ -1,0 +1,26 @@
+{
+  "en": {
+    "h-1": "Forgot Domain",
+    "sh-1": "Please enter your email to receive your list of domains",
+    "f-email-label": "Admin E-Mail ID",
+    "f-email-placeholder": "Enter admin e-mail id",
+    "btn-send": "Send on E-Mail",
+    "err-0": "Something went wrong!"
+  },
+  "hi": {
+    "h-1": "डोमेन भूल गए",
+    "sh-1": "डोमेन की अपनी सूची प्राप्त करने के लिए कृपया अपना ईमेल दर्ज करें",
+    "f-email-label": "व्यवस्थापक ई-मेल आईडी",
+    "f-email-placeholder": "ई-मेल आईडी दर्ज करें",
+    "btn-send": "ई-मेल पर भेजें",
+    "err-0": "कुछ गलत हो गया!"
+  },
+  "fr": {
+    "h-1": "Domaine oublié",
+    "sh-1": "Veuillez saisir votre email pour recevoir votre liste de domaines",
+    "f-email-label": "ID de messagerie de l'administrateur",
+    "f-email-placeholder": "Entrez l'ID de messagerie de l'administrateur",
+    "btn-send": "Envoyer par e-mail",
+    "err": "Un problème est survenu!"
+  }
+}

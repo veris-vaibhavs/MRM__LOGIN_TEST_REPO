@@ -1,0 +1,13 @@
+.forgot_container {
+    display: flex;
+    position: relative;
+    justify-content: flex-end;
+    top: -0.5em;
+    margin-bottom: 1em;
+}
+
+.forget_anchor {
+    text-decoration: none;
+    color: #2a8ccf;
+    font-size: 14px;
+}

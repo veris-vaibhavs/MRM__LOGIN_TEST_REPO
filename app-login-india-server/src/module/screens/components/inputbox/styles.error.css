@@ -1,0 +1,18 @@
+.error_input {
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px !important;
+    line-height: 16px;
+    color: #f8795a;
+    margin-bottom: 0px;
+    min-height: 16px;
+}
+
+.text-error {
+    font-size: 12px;
+    padding: 0 0px 8px 4px;
+}
+
+.error.inputWrapper input {
+    border: 1px solid rgb(248, 111, 80);
+}

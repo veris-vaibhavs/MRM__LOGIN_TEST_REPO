@@ -1,0 +1,18 @@
+.Content {
+    flex: 1;
+    overflow: auto;
+    margin-bottom: 20px;
+    padding: 20px 24px 20px 24px;
+}
+
+@media only screen and (max-width: 992px) {
+    .Content {
+        padding: 16px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .Content {
+        padding: 16px;
+    }
+}

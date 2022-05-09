@@ -1,0 +1,30 @@
+{
+  "en": {
+    "h-1": "Sign in to",
+    "f-otp-label": "Enter OTP *",
+    "lk-password": "Sign in with password?",
+    "btn-continue": "Continue",
+    "btn-resend": "Resend OTP",
+    "i-resend": "Resend OTP in",
+    "succ-0": "OTP resent!",
+    "err-0": "Something went wrong!",
+    "err-1": "Wrong OTP",
+    "err-2": "Two many failed attempts!",
+    "err429": "User blocked! try after a minute",
+    "err429_plural": "User blocked! try after {{count}} minutes"
+  },
+  "hi": {
+    "h-1": "साइन इन करें",
+    "f-otp-label": "OTP दर्ज करें *",
+    "lk-password": "पासवर्ड के साथ साइन इन करें",
+    "btn-continue": "जारी रखें",
+    "btn-resend": "ओटीपी पुनः भेजें",
+    "i-resend": "में ओटीपी पुनः भेजें",
+    "succ-0": "OTP नाराजगी!",
+    "err-0": "कुछ गलत हो गया!",
+    "err-1": "गलत ओटीपी",
+    "err-2": "दो कई असफल प्रयास!",
+    "err429": "उपयोगकर्ता अवरुद्ध! एक मिनट के बाद प्रयास करें",
+    "err429_plural": "उपयोगकर्ता अवरुद्ध! {{count}} मिनट के बाद प्रयास करें"
+  }
+}

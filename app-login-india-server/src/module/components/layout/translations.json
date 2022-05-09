@@ -1,0 +1,16 @@
+{
+  "en": {
+    "lk-activities": "Activities",
+    "lk-analytics": "Invites",
+    "lk-invites": "Invites",
+    "info-firelist": "Loading Firelist ...",
+    "t-firelist": "Firelist"
+  },
+  "hi": {
+    "lk-activities": "क्रियाएँ",
+    "lk-analytics": "आमंत्रण",
+    "lk-invites": "आमंत्रण",
+    "info-firelist": "फायर लिस्ट लोड हो रहा है ...",
+    "t-firelist": "अग्नि सूची"
+  }
+}

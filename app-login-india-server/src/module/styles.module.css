@@ -1,0 +1,406 @@
+.Header {
+    height: 64px;
+    display: flex;
+    align-items: center;
+    padding-left: 64px;
+    border-bottom: 1px solid #c5ced1;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.Logo {
+    height: 48px;
+}
+
+.Logo img {
+    height: 100%;
+}
+
+.SubContainer {
+    min-height: calc(100vh - 64px);
+    background-color: #ebeff2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Box {
+    width: 360px;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 1px 2px 4px 0px rgba(0, 0, 0, 0.2);
+}
+
+.BoxHeader {
+    padding: 24px;
+    border-bottom: 1px solid #ebeff2;
+    padding-bottom: 16px;
+}
+
+.BoxContent {
+    padding: 24px;
+    padding-top: 16px;
+}
+
+.Heading {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.SubHeading {
+    color: #9a9faa;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+}
+
+.Label {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #242934
+}
+
+.InputContainer {
+    margin-bottom: 16px;
+}
+
+.Input {
+    border: 1px solid #c2c5cc;
+    border-radius: 9px;
+    padding: 10px 12px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.Input::placeholder {
+    color: #959b9e
+}
+
+.Button {
+    background-color: #018ccf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 36px;
+    border-radius: 6px;
+}
+
+.ButtonLabel {
+    font-size: 14px;
+    line-height: 22px;
+    color: white;
+}
+
+.Footer {
+    margin-top: 22px;
+    margin-bottom: 36px;
+}
+
+.Footer p {
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+    line-height: 14px;
+    text-align: center;
+    color: #474b57;
+}
+
+@media only screen and (max-width: 576px) {
+    .Header {
+        padding-left: 24px;
+    }
+}
+
+
+.Container {
+    color: #6e7380;
+    background: #fff;
+}
+
+.MainNavigation {
+    position: relative;
+    border: 1px solid #c5ced1;
+    display: flex;
+    align-items: center;
+    height: 64px;
+    justify-content: space-between;
+}
+
+.Logo {
+    padding: 0px 50px;
+    border-right: 1px solid #ebebeb;
+    height: 48px;
+}
+
+.Logo img {
+    height: 100%;
+}
+
+.LogoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+    box-sizing: border-box;
+}
+
+.AppContainer {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 64px;
+}
+
+.App {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+
+.App:hover {
+    color: #018ccf;
+}
+
+.App:hover .AppIcon {
+    fill: #018ccf;
+}
+
+.App:hover .DownloadIcon line, .App:hover .DownloadIcon polyline, .App:hover .DownloadIcon path {
+    stroke: #018ccf;
+}
+
+.AppContainer:hover .App.Active {
+    color: #6e7380
+}
+
+.AppContainer:hover .App.Active .AppIcon {
+    fill: #6e7380
+}
+
+.AppContainer:hover .App.Active:hover {
+    color: #018ccf
+}
+
+.AppContainer:hover .App.Active:hover .AppIcon {
+    fill: #018ccf
+}
+
+/* .App:hover ~ .App .AppIcon{
+    fill: #6e7380
+} */
+.AppName {
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.AppIcon {
+    height: 24px;
+    margin-right: 8px;
+    fill: #6e7380;
+}
+
+.DownloadIcon {
+    height: 24px;
+    margin-right: 8px;
+    fill: #6e7380;
+}
+
+.App .DownloadIcon line, .App .DownloadIcon polyline, .App .DownloadIcon path {
+    height: 24px;
+    margin-right: 8px;
+    stroke: #6e7380;
+}
+
+.App.Active {
+    color: #018ccf;
+}
+
+.App.Active .AppIcon {
+    fill: #018ccf;
+}
+
+.OtherLinks {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 64px;
+}
+
+.IconLinkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+    height: 64px;
+    border-left: 1px solid #c5ced1;
+}
+
+.IconLink {
+    height: 24px;
+    fill: #6e7380;
+}
+
+.IconLinkContainer:hover .IconLink {
+    height: 24px;
+    fill: #018ccf;
+}
+
+.ProfileLink {
+    border-left: 1px solid #c5ced1;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 26px;
+    position: relative;
+}
+
+.UserIcon {
+    height: 24px;
+    fill: #6e7380;
+    margin-right: 10px;
+}
+
+.UserName {
+    font-size: 16px;
+    text-align: center;
+    line-height: 16px;
+    font-weight: normal;
+    transform: translateY(-2px)
+}
+
+.CaretIcon {
+    height: 16px;
+    fill: #6e7380;
+    margin-left: 32px;
+}
+
+.ProfileLink:hover .CaretIcon {
+    fill: #018ccf
+}
+
+.SubNavigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 56px;
+}
+
+.LinksContainer {
+    display: flex;
+}
+
+.Link {
+    height: 56px;
+    padding: 16px 32px;
+}
+
+.Link.Active {
+    border-bottom: 2px solid #018ccf;
+}
+
+.Venue {
+    position: absolute;
+    height: 56px;
+    right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 24px
+}
+
+.DropDown {
+    position: absolute;
+    top: 56px;
+    left: 0px;
+    width: 90%;
+    z-index: 99;
+    background-color: white;
+    border-radius: 9px;
+    box-shadow: 0px 0px 4px 0px #CBCED4;
+}
+
+.DropDownPointer {
+    width: 16px;
+    height: 16px;
+    background-color: white;
+    transform: rotate(45deg) translateY(-10px);
+    position: absolute;
+    top: 0px;
+    left: 32px;
+    box-shadow: 0px 0px 4px 0px #CBCED4;
+}
+
+.DropDown ul {
+    position: relative;
+    list-style: none;
+    background-color: white;
+    z-index: 2;
+    border-radius: 9px;
+    padding-left: 0px;
+}
+
+.DropDown ul li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #343E4F;
+    cursor: pointer;
+    border-bottom: 1px solid #EBEDF2;
+}
+
+.DropDown ul li:hover {
+    background-color: rgba(248, 248, 248, 0.4);
+}
+
+.DropDownIcon {
+    height: 16px;
+    margin-right: 8px;
+    fill: #6e7380;
+    transform: translateY(2px)
+}
+
+.DropDown ul li.Logout {
+    color: #FF3E1D;
+}
+
+.DropDown ul li.Logout .DropDownIcon {
+    height: 16px;
+    margin-right: 8px;
+    fill: #FF3E1D;
+    transform: translateY(2px)
+}
+
+.Backdrop {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background-color: transparent;
+}
+
+.languageDropdown {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+}

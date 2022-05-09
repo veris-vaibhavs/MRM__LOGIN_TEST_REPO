@@ -1,0 +1,32 @@
+{
+  "en": {
+    "h-1": "Organization Domain",
+    "sh-1": "Enter your Veris organisation domain to start",
+    "f-domain-label": "Organization Domain",
+    "f-domain-placeholder": "Enter Domain",
+    "f-domain-suffix": ".veris.in",
+    "lk-forgot-domain": "Forgot Domain?",
+    "btn-continue": "Continue",
+    "err-0": "Domain not found!"
+  },
+  "fr": {
+    "h-1": "Domaine de l'organisation",
+    "sh-1": "Saisissez le domaine de votre organisation Veris pour commencer",
+    "f-domain-label": "Domaine de l'organisation",
+    "f-domain-placeholder": "Entrez le domaine",
+    "f-domain-suffix": ".veris.in",
+    "lk-forgot-domain": "Domaine oublié?",
+    "btn-continue": "Continuer",
+    "err-0": "Domaine introuvable!"
+  },
+  "hi": {
+    "h-1": "संगठन डोमेन",
+    "sh-1": "शुरू करने के लिए अपना वेरिस संगठन डोमेन दर्ज करें",
+    "f-domain-label": "संगठन डोमेन",
+    "f-domain-placeholder": "डोमेन दर्ज करें",
+    "f-domain-suffix": ".veris.in",
+    "lk-forgot-domain": "डोमेन भूल गए?",
+    "btn-continue": "जारी रखें",
+    "err-0": "डोमेन नहीं मिला!"
+  }
+}

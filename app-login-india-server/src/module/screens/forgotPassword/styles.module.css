@@ -1,0 +1,29 @@
+.LabelContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.PasswordLink {
+    padding: 0px;
+    margin: 0px;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6e7380;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.PasswordLink:hover {
+    color: #242934;
+}
+
+.OTPRight {
+    width: 47%;
+    float: right;
+    font-size: 14px;
+    text-align: right;
+    display: inline-block;
+    margin: 0 0 12px 0;
+    cursor: pointer;
+}

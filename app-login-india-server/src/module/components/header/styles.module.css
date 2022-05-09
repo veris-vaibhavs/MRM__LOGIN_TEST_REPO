@@ -1,0 +1,25 @@
+.Header {
+    display: flex;
+    max-height: 55px;
+    border-bottom: 1px solid #f2f6fa;
+    padding: 14px 0px 5px 24px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Heading {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.BtnContainer {
+    padding: 16px;
+    padding-right: 24px;
+}
+
+.CloseIcon {
+    height: 16px;
+    fill: #6e7380;
+    margin-right: 10px;
+}

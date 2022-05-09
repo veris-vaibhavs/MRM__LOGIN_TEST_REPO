@@ -1,0 +1,64 @@
+.Container {
+    position: relative;
+    background-color: white;
+    z-index: 98;
+}
+
+.SubNavigation {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #c5ced1;
+    background-color: white
+}
+
+.LinksContainer {
+    display: flex;
+}
+
+.Link {
+    height: 56px;
+    padding: 16px 32px;
+    box-sizing: border-box;
+    transform: translateY(1px)
+}
+
+.Link a {
+    text-decoration: none;
+    color: #6e7380;
+}
+
+.Link a:focus {
+    outline: none;
+}
+
+.Link.Active {
+    border-bottom: 2px solid #018ccf;
+}
+
+.Link.Active a {
+    color: #018ccf;
+}
+
+.VenueContainer {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0px;
+}
+
+.FireList {
+    margin-left: 20px;
+    margin-right: 16px;
+}
+
+@media (max-width: 620px) {
+    .Link {
+        padding: 16px 26px;
+    }
+
+    .SubNavigation {
+        justify-content: space-between;
+    }
+}

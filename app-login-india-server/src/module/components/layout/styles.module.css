@@ -1,0 +1,36 @@
+.Venue {
+    display: flex;
+    height: 36px;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #c2c5cc;
+    border-radius: 9px;
+}
+
+.VenueDropdown {
+    width: 200px;
+    transform: translateY(12px);
+}
+
+.LocationIcon {
+    height: 24px;
+    fill: #6e7380;
+    margin-left: 6px;
+    transform: translate(6px, 2px)
+}
+
+.FireList {
+    height: 24px;
+    fill: red;
+}
+
+.FireList:hover {
+    fill: orange;
+    cursor: pointer;
+}
+
+.Content {
+    min-height: calc(100vh - 56px);
+    width: 100%;
+    background-color: #f2f6fa;
+}

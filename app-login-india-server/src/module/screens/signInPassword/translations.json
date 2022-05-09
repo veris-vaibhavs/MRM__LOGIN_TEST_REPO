@@ -1,0 +1,32 @@
+{
+  "en": {
+    "h-1": "Sign in to",
+    "f-contact-label": "Your email/phone *",
+    "f-contact-placeholder": "Enter your email or phone",
+    "lk-otp": "Sign in with OTP?",
+    "f-password-label": "Your password",
+    "f-password-placeholder": "Enter password",
+    "btn-continue": "Continue",
+    "lk-forgot": "Forgot Password?",
+    "btn-okta": "Login with Okta",
+    "btn-google": "Login with Google",
+    "err-0": "Incorrect credentials!",
+    "err429": "User blocked! try after a minute",
+    "err429_plural": "User blocked! try after {{count}} minutes"
+  },
+  "hi": {
+    "h-1": "साइन इन करें",
+    "f-contact-label": "आपका ईमेल / फोन *",
+    "f-contact-placeholder": "अपना ईमेल या फ़ोन दर्ज करें",
+    "lk-otp": "OTP के साथ साइन इन करें",
+    "f-password-label": "आपका पासवर्ड",
+    "f-password-placeholder": "पास वर्ड दर्ज करें",
+    "btn-continue": "जारी रखें",
+    "lk-forgot": "पासवर्ड भूल गए?",
+    "btn-okta": "ओक्टा के साथ लॉगिन करें",
+    "btn-google": "Google के साथ लॉगिन करें",
+    "err-0": "गलत परिचय!",
+    "err429": "उपयोगकर्ता अवरुद्ध! एक मिनट के बाद प्रयास करें",
+    "err429_plural": "उपयोगकर्ता अवरुद्ध! {{count}} मिनट के बाद प्रयास करें"
+  }
+}

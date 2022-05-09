@@ -1,0 +1,20 @@
+{
+  "en": {
+    "h-1": "Forgot Password",
+    "f-contact-label": "Your email/phone *",
+    "f-contact-placeholder": "Enter your email or phone",
+    "lk-otp": "Sign in with otp?",
+    "btn-verification-link": "Request Verification Link",
+    "i-footer": "We will send you verification link on your provided contact.",
+    "err-0": "Something went wrong!"
+  },
+  "hi": {
+    "h-1": "पासवर्ड भूल गए",
+    "f-contact-label": "आपका ईमेल / फोन *",
+    "f-contact-placeholder": "अपना ईमेल या फ़ोन दर्ज करें",
+    "lk-otp": "ओटीपी के साथ साइन इन करें",
+    "btn-verification-link": "सत्यापन लिंक का अनुरोध करें",
+    "i-footer": "हम आपको आपके प्रदान किए गए संपर्क पर सत्यापन लिंक भेज देंगे।",
+    "err-0": "कुछ गलत हो गया!"
+  }
+} 

@@ -1,0 +1,30 @@
+{
+  "en": {
+    "i-help": "Need help? Contact Veris Support at helpdesk@veris.in",
+    "err-required": "This field is required.",
+    "err-contact-0": "Enter valid email or phone number with country code",
+    "err-email-0": "Enter valid email",
+    "err-setPasssword-0": "Password should have at least one lower case character",
+    "err-setPasssword-1": "Password should have at least one upper case character",
+    "err-setPasssword-2": "Password should have at least one number",
+    "err-setPasssword-3": "Password should have at least one special character, allowed characters ! @ # $ & *",
+    "err-setPasssword-4": "Allowed special characters ! @ # $ & *",
+    "err-setPasssword-5": "Password should be at least 10 characters",
+    "err-confirmPasssword-0": "Passwords don't match.",
+    "err-otp-0": "Enter valid otp"
+  },
+  "hi": {
+    "i-help": "मदद की ज़रूरत है? helpdesk@veris.in पर संपर्क करें",
+    "err-required": "यह फ़ील्ड आवश्यक है",
+    "err-contact-0": "देश कोड के साथ मान्य ईमेल या फ़ोन नंबर दर्ज करें",
+    "err-email-0": "मान्य ईमेल दर्ज करें",
+    "err-setPasssword-0": "पासवर्ड में कम से कम एक कम वर्ण होना चाहिए",
+    "err-setPasssword-1": "पासवर्ड में कम से कम एक ऊपरी मामला होना चाहिए",
+    "err-setPasssword-2": "पासवर्ड में कम से कम एक नंबर होना चाहिए",
+    "err-setPasssword-3": "पासवर्ड में कम से कम एक विशेष वर्ण, अनुमत वर्ण होना चाहिए! @ # $ & *",
+    "err-setPasssword-4": "विशेष चरित्रों की अनुमति है! @ # $ & *",
+    "err-setPasssword-5": "पासवर्ड कम से कम 10 अक्षर का होना चाहिए",
+    "err-confirmPasssword-0": "पासवर्ड मेल नहीं खाते।",
+    "err-otp-0": "मान्य otp दर्ज करें"
+  }
+}

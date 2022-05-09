@@ -1,0 +1,29 @@
+.Header {
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 16px;
+}
+
+.Heading {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 24px;
+}
+
+.BackIcon {
+    height: 12px;
+    fill: #6e7380;
+    margin-right: 15px;
+}
+
+.BackIcon:hover {
+    cursor: pointer;
+}
+
+.BackIcon:hover {
+    fill: hsla(223, 8%, 47%, 0.5);
+}
+
+.Modal {
+    width: 85% !important;
+}

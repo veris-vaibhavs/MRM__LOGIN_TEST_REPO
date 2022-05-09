@@ -1,0 +1,3 @@
+export const SESSION_DETAILS = "SESSION_DETAILS";
+export const FORMDATA = "FORMDATA";
+export const SETCONTACT = "SETCONTACT";
